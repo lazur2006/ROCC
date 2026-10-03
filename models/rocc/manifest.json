@@ -1,0 +1,36 @@
+{
+  "format": "rocc-minilm-crf-v1",
+  "model": "ROCC",
+  "variant": "baseline_collapsed_crf",
+  "checkpoint": "model.pt",
+  "checkpoint_bytes": 133515903,
+  "parameters": 33361170,
+  "labels": ["O", "B-KEEP", "I-KEEP"],
+  "max_length": 512,
+  "history_order": "recent_first",
+  "backbone": {
+    "repository": "sentence-transformers/all-MiniLM-L12-v2",
+    "revision": "a50ef00143b4d5391434df20ae11632588ac25be",
+    "license": "Apache-2.0",
+    "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2/tree/a50ef00143b4d5391434df20ae11632588ac25be"
+  },
+  "provenance": {
+    "training_artifact": "experiments/results/05_history_selector/full_candidates/collapsed_crf/model.pt",
+    "architecture_decision": "experiments/results/05_history_selector/train600/architecture/decision.json",
+    "training_regime": "independent_hf_baseline_v1",
+    "adaptation": "full",
+    "epochs": 3,
+    "seed": 13,
+    "teacher_dataset_sha256": "901f5c891f9e0582d2941b91651e5a42fe88746328f8fe4e476325b50173235b",
+    "inference_source": ["experiments/rocc/history_selector.py", "experiments/rocc/crf_sampling.py"]
+  },
+  "validated_versions": {"torch": "2.11.0", "transformers": "4.57.3", "pytorch-crf": "0.7.2", "tokenizers": "0.22.2"},
+  "sha256": {
+    "model.pt": "a07271abefbc37ef08dba4eb94adb0e165f53a652060c069c909a7a1614115c4",
+    "config.json": "bc451f333af67312ba0de5018ef1c9ba663cb18549443e568f0bd35262dc1c48",
+    "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+    "tokenizer_config.json": "fba7637034542f691ef4b1ad735d664971e8d9723012a1973d4ee985742e8e72",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  }
+}

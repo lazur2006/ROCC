@@ -1,0 +1,85 @@
+{
+  "run_metadata": {
+    "started_at": "2026-06-06T09:09:41.728345+00:00",
+    "finished_at": "2026-06-06T09:14:55.460129+00:00",
+    "elapsed_seconds": 313.73178324100445,
+    "argv": [
+      "experiments/scripts/analyze_ance_passage_encoding.py",
+      "--dataset",
+      "topiocqa",
+      "--data-dir",
+      "experiments/data/topiocqa",
+      "--batch-size",
+      "160",
+      "--max-length",
+      "384",
+      "--workers",
+      "32",
+      "--chunk-batches",
+      "4",
+      "--out",
+      "experiments/results/ance_passage_encoding/topiocqa.json"
+    ],
+    "cwd": "<original checkout>",
+    "script": "experiments/scripts/analyze_ance_passage_encoding.py",
+    "path_normalization": "Original machine-specific prefixes removed for distribution; measurements unchanged."
+  },
+  "corpus_summary": [
+    {
+      "dataset_name": "topiocqa",
+      "num_passages": 25700592,
+      "expected_total_passages": 25700592,
+      "max_passages": null,
+      "full_scan": true,
+      "batch_size": 160,
+      "max_length_setting": 384,
+      "workers": 32,
+      "chunk_batches": 4,
+      "encoder_name": "castorini/ance-msmarco-passage",
+      "source_file": "experiments/data/topiocqa/downloads/data/wikipedia_split/full_wiki_segments.tsv"
+    }
+  ],
+  "token_length_summary": [
+    {
+      "mean": 99.48788802218935,
+      "variance": 2920.5256094586425,
+      "ci95_low": 99.46699433842494,
+      "ci95_high": 99.50878170595377,
+      "min": 3,
+      "max": 12779
+    }
+  ],
+  "unk_summary": [
+    {
+      "unk_tokens": 0,
+      "visible_tokens": 2556897619,
+      "unk_rate": 0.0,
+      "passages_with_unk": 0,
+      "passages_with_unk_fraction": 0.0
+    }
+  ],
+  "truncation_summary": [
+    {
+      "truncated_passages": 5461,
+      "truncation_rate": 0.00021248537776873,
+      "truncated_tokens_total": 1080574,
+      "mean_truncated_tokens_all": 0.042044712433083255,
+      "mean_truncated_tokens_truncated_only": 197.87108588170665
+    }
+  ],
+  "padding_summary": [
+    {
+      "batch_padded_length_mean": 236.47622782934593,
+      "batch_padded_length_variance": 1896.9086116739636,
+      "batch_padded_length_ci95_low": 236.26323386466075,
+      "batch_padded_length_ci95_high": 236.6892217940311,
+      "batch_padded_length_min": 45,
+      "batch_padded_length_max": 384,
+      "actual_visible_tokens_total": 2555817045,
+      "padded_tokens_total": 6077579072,
+      "padding_overhead_tokens_total": 3521762027,
+      "padding_overhead_fraction": 0.5794679074148292,
+      "effective_token_utilization": 0.4205320925851707
+    }
+  ]
+}

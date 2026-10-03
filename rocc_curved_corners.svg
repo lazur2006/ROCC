@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="879.9333"
+     height="314.333"
+     viewBox="-735.62 -194.848 879.9333 314.333">
+
+  <rect x="-735.62" y="-194.848" width="879.9333" height="314.333" fill="#ffffff"/>
+
+  <g fill="none"
+     stroke="#000000"
+     stroke-width="3.6"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M -710.73 -193.055
+             H -726.75
+             A 7 7 0 0 0 -733.75 -186.055
+             V -169.23"/>
+
+    <path d="M -452.55397949 -192.97802246
+             H -435.73397949
+             A 7 7 0 0 1 -428.73397949 -185.97802246
+             V -169.95802246"/>
+
+    <path d="M -733.92649365 93.65596191
+             V 109.67096191
+             A 7 7 0 0 0 -726.92649365 116.67096191
+             H -710.10599365"/>
+
+    <path d="M -428.81001953 93.97600671
+             V 110.79650671
+             A 7 7 0 0 1 -435.81001953 117.79650671
+             H -451.83001953"/>
+  </g>
+
+  <rect x="-398.9" y="-147.38" width="4.263" height="219.65" fill="#000000"/>
+
+  <text x="-356.22"
+        y="-32.429"
+        font-family="Arial, sans-serif"
+        font-size="170"
+        fill="#000000">ROCC</text>
+
+  <text font-family="Arial, sans-serif"
+        font-size="46"
+        fill="#000000"
+        transform="translate(-600.326171875 -249.6045684814453)">
+    <tspan x="254.179" y="291.267">Retrieval-Oriented</tspan>
+    <tspan x="254.179" dy="1em">&#8203;</tspan><tspan>Context Compression</tspan>
+  </text>
+
+  <g transform="translate(-609.5095825195312 -160.30728149414062)">
+    <rect x="-106.77"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="-51.276"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="4.222"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="59.72"    y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="115.219"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(-609.5095825195312 -103.36581420898438)">
+    <rect x="-106.77"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="-51.276"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="4.222"    y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="59.72"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="115.219"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(-609.5096435546875 -46.42435073852539)">
+    <rect x="-106.77"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="-51.276"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="4.222"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="59.72"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="115.219"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(-609.5095825195312 10.517082214355469)">
+    <rect x="-106.77"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="-51.276"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="4.222"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="59.72"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="115.219"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(-609.5096435546875 67.45854187011719)">
+    <rect x="-106.77"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="-51.276"  y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="4.222"    y="-15.515" width="48.053" height="48.411" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+    <rect x="59.72"    y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+    <rect x="115.219"  y="-15.515" width="48.053" height="48.411" fill="#000000" stroke="#000000" stroke-width="3"/>
+  </g>
+
+</svg>
