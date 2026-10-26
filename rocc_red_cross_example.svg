@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1284" viewBox="0 84 1100 1284" role="img" aria-labelledby="title description">
+  <!-- Source: TopiOCQA dev:203:8, thesis Red Cross case; original history wording and base-model selected_history. -->
+  <title id="title">ROCC selection in the Red Cross conversation</title>
+  <desc id="description">A square-edged chat view of the complete seven-turn history for TopiOCQA dev:203:8. User queries appear on the right in black and answers on the left in white. Yellow highlights identify only answers 4 and 5, the 13 words selected by the base ROCC model. The current query follows unchanged. Original dataset wording is preserved.</desc>
+  <rect width="1100" height="1407" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="842" y="100" width="24" height="22" fill="#ffdd00"/>
+    <text x="878" y="117" font-size="16" font-weight="700" fill="#000000">Selected by ROCC</text>
+    <g id="message-q1">
+      <rect x="614" y="146" width="454" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="632" y="163" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 1</text>
+      <text id="q1" x="632" y="188" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="632" dy="0">what happened after the earthquake in haiti 2010</tspan>
+      </text>
+    </g>
+    <g id="message-a1">
+      <rect x="32" y="212" width="775" height="80" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="229" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 1</text>
+      <text id="a1" x="50" y="254" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">By 24 January 2010, at least 52 aftershocks measuring 4.5 or greater had been recorded. An</tspan>
+        <tspan x="50" dy="24">estimated three million people were affected by the quake.</tspan>
+      </text>
+    </g>
+    <g id="message-q2">
+      <rect x="769" y="312" width="299" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="787" y="329" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 2</text>
+      <text id="q2" x="787" y="354" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="787" dy="0">what was the richter scale of it</tspan>
+      </text>
+    </g>
+    <g id="message-a2">
+      <rect x="32" y="378" width="534" height="56" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="395" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 2</text>
+      <text id="a2" x="50" y="420" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">catastrophic magnitude 7.0 M on the Moment magnitude scale</tspan>
+      </text>
+    </g>
+    <g id="message-q3">
+      <rect x="641" y="454" width="427" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="659" y="471" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 3</text>
+      <text id="q3" x="659" y="496" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="659" dy="0">how many casualties were there because of it</tspan>
+      </text>
+    </g>
+    <g id="message-a3">
+      <rect x="32" y="520" width="608" height="56" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="537" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 3</text>
+      <text id="a3" x="50" y="562" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">3 million people affected with a possible death toll of more than 316,000</tspan>
+      </text>
+    </g>
+    <g id="message-q4">
+      <rect x="725" y="596" width="343" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="743" y="613" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 4</text>
+      <text id="q4" x="743" y="638" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="743" dy="0">who were involved in rescue efforts</tspan>
+      </text>
+    </g>
+    <g id="message-a4">
+      <rect x="32" y="662" width="367" height="56" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="679" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 4</text>
+      <rect id="highlight-a4" x="45" y="683" width="340" height="28" fill="#ffdd00"/>
+      <text id="a4" x="50" y="704" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">International Committee of the Red Cross</tspan>
+      </text>
+    </g>
+    <g id="message-q5">
+      <rect x="918" y="738" width="150" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="936" y="755" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 5</text>
+      <text id="q5" x="936" y="780" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="936" dy="0">who are they</tspan>
+      </text>
+    </g>
+    <g id="message-a5">
+      <rect x="32" y="804" width="503" height="56" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="821" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 5</text>
+      <rect id="highlight-a5" x="45" y="825" width="476" height="28" fill="#ffdd00"/>
+      <text id="a5" x="50" y="846" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">a humanitarian organization based in Geneva, Switzerland</tspan>
+      </text>
+    </g>
+    <g id="message-q6">
+      <rect x="725" y="880" width="343" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="743" y="897" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 6</text>
+      <text id="q6" x="743" y="922" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="743" dy="0">what was their role in the holocaust</tspan>
+      </text>
+    </g>
+    <g id="message-a6">
+      <rect x="32" y="946" width="780" height="128" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="963" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 6</text>
+      <text id="a6" x="50" y="988" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">By taking part in the 1995 ceremony to commemorate the liberation of the Auschwitz</tspan>
+        <tspan x="50" dy="24">concentration camp, the President of the ICRC, Cornelio Sommaruga, paid tribute to all those</tspan>
+        <tspan x="50" dy="24">who had suffered or lost their lives during the war and publicly regretted the past mistakes</tspan>
+        <tspan x="50" dy="24">and shortcomings of the Red Cross with regard to the victims of the concentration camps.</tspan>
+      </text>
+    </g>
+    <g id="message-q7">
+      <rect x="792" y="1094" width="276" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="810" y="1111" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · 7</text>
+      <text id="q7" x="810" y="1136" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="810" dy="0">how do they raise their fund</tspan>
+      </text>
+    </g>
+    <g id="message-a7">
+      <rect x="32" y="1160" width="725" height="80" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+      <text x="50" y="1177" font-size="11" font-weight="700" letter-spacing="1" fill="#000000">ANSWER · 7</text>
+      <text id="a7" x="50" y="1202" font-size="18" font-weight="400" fill="#000000">
+        <tspan x="50" dy="0">Through donations as: an annual &quot;Headquarters Appeal&quot; to cover its internal costs and</tspan>
+        <tspan x="50" dy="24">&quot;Emergency Appeals&quot; for its individual missions.</tspan>
+      </text>
+    </g>
+    <path d="M 32 1265 H 1068" stroke="#000000" stroke-width="2"/>
+    <g id="message-current-query">
+      <rect x="623" y="1288" width="445" height="56" fill="#000000" stroke="#000000" stroke-width="2"/>
+      <text x="641" y="1305" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">YOU · CURRENT QUERY · 8</text>
+      <text id="current-query" x="641" y="1330" font-size="18" font-weight="600" fill="#ffffff">
+        <tspan x="641" dy="0">describe some of their characteristics</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
