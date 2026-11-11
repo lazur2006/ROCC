@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rocc-selector"
+version = "0.1.0"
+description = "Query-conditioned conversational history selection and reproducible ROCC experiments"
+license = "MIT"
+requires-python = ">=3.12,<3.14"
+dependencies = ["torch==2.11.0", "transformers==4.57.3", "pytorch-crf==0.7.2", "numpy==2.4.4", "pandas==3.0.2"]
+
+[project.optional-dependencies]
+experiments = ["scipy==1.17.1", "matplotlib==3.10.9", "nbformat>=5.10,<6", "nbclient>=0.10,<1", "nbconvert>=7.16,<8", "ipykernel>=6.29,<8", "jupyterlab>=4.4,<5", "pyserini==2.0.0", "faiss-cpu==1.13.2", "sentencepiece==0.2.1", "tiktoken==0.12.0", "accelerate==1.13.0", "peft==0.18.1", "openai==2.36.0", "python-dotenv>=1,<2", "tqdm>=4.66,<5", "psutil>=5.9,<8", "requests>=2.32,<3", "scikit-learn>=1.6,<2", "shap==0.52.0", "spacy==3.8.14"]
+profiling = ["nsight-python==1.0.0", "nvtx==0.2.16"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["experiments", "experiments.*"]
+exclude = ["experiments.results*", "experiments.data*", "experiments.model*"]
